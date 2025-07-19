@@ -1,10 +1,10 @@
-# 💛 LIFELINE AI: Voice-Driven Emotional First-Aid
+#  LIFELINE AI: Voice-Driven Emotional First-Aid
 
 > A voice-based mental health assistant that listens, detects emotion, comforts, and alerts when needed.
 
 ---
 
-## 🧠 Overview
+##  Overview
 
 LIFELINE AI is a **streamlit-based voice-driven emotional support system**. It uses natural language processing to recognize your emotions through voice and responds accordingly — by showing comforting memories, speaking kind words, or alerting a trusted contact in case of emotional distress.
 
@@ -16,18 +16,17 @@ This is just the **first step** in my vision. Future versions will integrate thi
 
 ---
 
-## 🔍 Features
+##  Features
 
-- 🎙️ **Voice Input:** Speak your thoughts — no typing needed.
-- 📊 **Emotion Detection:** Uses a transformer-based NLP model to analyze your mood.
-- 🗣️ **Human-like Voice Output:** Comforting responses using female text-to-speech with natural speed.
-- 📸 **Memory Boost:** Displays a happy memory image when you're feeling low.
-- 📧 **Emergency Email:** Sends alert to your contact when high sadness is detected.
-- 🧠 **Offline Interaction:** Works without storing or uploading sensitive user data.
+-  **Voice Input:** Speak your thoughts — no typing needed.
+-  **Emotion Detection:** Uses a transformer-based NLP model to analyze your mood.
+-  **Human-like Voice Output:** Comforting responses using female text-to-speech with natural speed.
+-  **Memory Boost:** Displays a happy memory image when you're feeling low.
+-  **Emergency Email:** Sends alert to your contact when high sadness is detected.
+-  **Offline Interaction:** Works without storing or uploading sensitive user data.
 
----
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Python**
 - **Streamlit** – UI Framework
@@ -37,9 +36,8 @@ This is just the **first step** in my vision. Future versions will integrate thi
 - **smtplib** – Email alerts
 - **PIL** – Image handling
 
----
 
-## 🖼️ Project Folder Structure
+##  Project Folder Structure
 
 ```
 LIFELINE-AI/
@@ -52,7 +50,7 @@ LIFELINE-AI/
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 1. Clone this repository:
 ```bash
@@ -72,9 +70,7 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
----
-
-## 📬 Configuration
+##  Configuration
 
 To enable email alerts, update the `send_alert_email()` function with your own Gmail credentials or set up environment variables:
 
@@ -83,42 +79,11 @@ server.login("your_email@gmail.com", "your_app_password")
 server.sendmail("your_email@gmail.com", "emergency_contact_email", message)
 ```
 
----
 
-## 💡 Future Scope
+##  Future Scope
 
-- 🔒 App-based voice call monitoring (with permissions)
-- ☁️ Cloud storage and real-time analysis
-- 📱 Android/iOS App with chatbot interface
-- 🧩 Integration with therapy platforms and support services
+-  App-based voice call monitoring (with permissions)
+-  Cloud storage and real-time analysis
+-  Android/iOS App with chatbot interface
+-  Integration with therapy platforms and support services
 
----
-
-## 🙌 Acknowledgements
-
-- [HuggingFace Transformers](https://huggingface.co/bhadresh-savani/distilbert-base-uncased-emotion)
-- [Streamlit](https://streamlit.io)
-- [Google Speech Recognition API](https://pypi.org/project/SpeechRecognition/)
-- [pyttsx3](https://pypi.org/project/pyttsx3/)
-
----
-
-## ✨ Demo
-
-📽️ *Coming soon!* Stay tuned for a YouTube walkthrough.
-
----
-
-## 📣 Connect with Me
-
-If this project resonates with you, feel free to:
-
-- ⭐ Star the repo
-- 🗨️ Share your feedback
-- 💬 Connect on [LinkedIn](https://www.linkedin.com/in/yourprofile/)
-
----
-
-## 🔐 Disclaimer
-
-This project is for educational and prototype purposes. For any real-world use, proper user consent, privacy policies, and secure storage practices are required.
