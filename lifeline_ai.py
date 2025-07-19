@@ -32,9 +32,9 @@ def send_alert_email():
     try:
         server = smtplib.SMTP("smtp.gmail.com", 587) # connects to the portal
         server.starttls() #encrypts connection
-        server.login("login mail[from mail]", "app password")
+        server.login("your_email@gmail.com", "your_app_password")
         message = "Subject: LIFELINE AI Alert\n\nThe person is disturbed and may need emotional support."
-        server.sendmail("from mail", "To mail", message)
+        server.sendmail("your_email@gmail.com", "emergency_contact_email", message)
         server.quit()
         return True
     except Exception as e:
